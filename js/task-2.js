@@ -1,5 +1,5 @@
 function makeArray(firstArray, secondArray, maxLength) {
-    resultArray = firstArray.concat(secondArray);
+    const resultArray = firstArray.concat(secondArray);
     if (resultArray.length > maxLength) {
         return resultArray.slice(0, maxLength);
     } else { return resultArray }
